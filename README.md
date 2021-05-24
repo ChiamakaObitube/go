@@ -3,6 +3,3 @@
 
 This is a simple repository built using Golang with the main purpose to try out different CI/CD tools, such as:
 - Jenkins
-- GitHub Actions
-- Travis CI
-- and more...
