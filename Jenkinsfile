@@ -4,7 +4,7 @@ pipeline {
         go 'go1.14'
     }
     parameters {
-        string(name: 'RECIPIENTS', defaultValue: 'obitubealex@gmail.com, description: 'Email for the build result')
+        string(name: 'RECIPIENTS', defaultValue: 'obitubealex@gmail.com', description: 'Email for the build result')
     }
     environment {
         GO114MODULE = 'on'
